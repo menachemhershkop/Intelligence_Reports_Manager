@@ -1,0 +1,20 @@
+{
+  "name": "intelligence_reports_manager",
+  "version": "1.0.0",
+  "description": "\"# Intelligence_Reports_Manager\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "httpsgithub.commenachemhershkopIntelligence_Reports_Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
