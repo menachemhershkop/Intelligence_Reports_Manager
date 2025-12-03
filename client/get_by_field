@@ -1,0 +1,17 @@
+import { db } from "../db/database.js";
+
+export default function sortedByField(name, db){
+    if (name == "terroristName"){
+        return db.sort((a, b) => a.terroristName.localeCompare(b.terroristName))
+    }
+    if (name == "weapons"){
+        return db.sort((a, b) => a.weapons.localeCompare(b.weapons))
+    }
+    if (name ==  "massage"){
+        return db.sort((a, b) => a.massage.localeCompare(b.massage))
+    }
+}
+
+
+
+console.log(sortedByField("massage", db));
