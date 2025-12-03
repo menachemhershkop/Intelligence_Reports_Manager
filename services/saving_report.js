@@ -12,8 +12,3 @@ export default function saving_reports(db, report){
      return db.push(report)
 }
 
-// const teror = new new_report(db,"123",null,"glok","veary deanger")
-// const teror2 = new new_report(db,"1234","ahmes","glok","veary deanger")
-// saving_reports(db,teror)
-// saving_reports(db,teror2)
-// console.log(db);

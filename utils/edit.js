@@ -11,17 +11,16 @@ export default function edit(id, db, key, update){
                 console.log("Updting: \n", db[i]);
                                 }
             else {
-                throw new Error("key not found");
+                console.log("key not found");
             }
         }
          
     }
         if (results == null) {
-            throw new Error("ID not fuond");
+            console.log("ID not fuond");
             
         }
     
     
     return 
 }
-// edit('123456', db, "massage", "nanana")

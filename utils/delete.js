@@ -9,12 +9,8 @@ export default function del(db, id){
          
     }
         if (results == null) {
-            throw new Error("ID not fuond");
+            console.log("ID not fuond");
             
         }
     return db
 }
-// console.log(db);
-// del(db,"123456")
-// console.log(db);
-

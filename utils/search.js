@@ -8,12 +8,12 @@ export default function search(db, id){
          
     }
         if (results == null) {
-            throw new Error("ID not fuond");
+            console.log("ID not fuond");
             
         }
     return results
 }
 
-// console.log(search(db,"123456"));
+
 
 
