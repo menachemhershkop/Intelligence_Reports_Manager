@@ -1,4 +1,4 @@
-import { db } from "../db/database.js";
+import { db } from "./database.js";
 
 export default function sortedByField(name, db){
     if (name == "terroristName"){
@@ -14,4 +14,4 @@ export default function sortedByField(name, db){
 
 
 
-console.log(sortedByField("massage", db));
+// console.log(sortedByField("massage", db));

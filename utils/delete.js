@@ -15,6 +15,6 @@ export default function del(db, id){
     return db
 }
 // console.log(db);
-// del(db,"123")
+// del(db,"123456")
 // console.log(db);
 

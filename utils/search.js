@@ -14,6 +14,6 @@ export default function search(db, id){
     return results
 }
 
-console.log(search(db,"123456"));
+// console.log(search(db,"123456"));
 
 

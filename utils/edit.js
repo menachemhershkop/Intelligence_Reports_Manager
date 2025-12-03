@@ -8,6 +8,7 @@ export default function edit(id, db, key, update){
             results =  db[i]
             if (keys.includes(key)){
                 db[i][key] = update
+                console.log("Updting: \n", db[i]);
                                 }
             else {
                 throw new Error("key not found");
@@ -19,5 +20,8 @@ export default function edit(id, db, key, update){
             throw new Error("ID not fuond");
             
         }
+    
+    
     return 
 }
+// edit('123456', db, "massage", "nanana")
